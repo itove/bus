@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'bus',
+  appId: 'com.itove.bus',
+  appName: '智能公交',
   webDir: 'www',
   bundledWebRuntime: false
 };
