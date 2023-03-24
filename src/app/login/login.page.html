@@ -1,9 +1,31 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>login</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button text="" icon="chevron-back"></ion-back-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <h1>欢迎使用十堰智能公交</h1>
+  <h4>智慧出行 便捷生活</h4>
+
+  <ion-item fill="solid">
+    <ion-label position="floating">账号/手机号</ion-label>
+    <ion-input placeholder="请输入账号/手机号" [clearInput]="true"></ion-input>
+  </ion-item>
+  <ion-item fill="solid" class="password">
+    <ion-label position="floating">密码</ion-label>
+    <ion-input placeholder="请输入密码" [clearInput]="true" type="password"></ion-input>
+  </ion-item>
+  <ion-button expand="full" shape="round" color="warning">登录</ion-button>
+  <div class="more">
+    <ion-note>注册账号</ion-note>
+    <ion-note>忘记密码</ion-note>
+  </div>
+  <ion-item class="footer">
+    <ion-checkbox slot="start"></ion-checkbox>
+    <ion-label>已阅读并同意<ion-text color="tertiary">《服务协议》</ion-text>和<ion-text color="tertiary">《隐私条款》</ion-text></ion-label>
+  </ion-item>
 
 </ion-content>

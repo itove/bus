@@ -1,0 +1,41 @@
+ion-toolbar{
+  --background: #fff;
+  --border-style: none;
+}
+ion-back-button{
+  --color: #000;
+}
+ion-content{
+  --padding-top: 5rem;
+  --padding-start: 2rem;
+  --padding-end: 2rem;
+  h1{
+    font-weight: bold;
+  }
+  h4{
+    color: #9a9a9a;
+    margin-bottom: 3rem;
+  }
+  ion-item{
+    --padding-start: 0;
+  }
+  .password{
+    margin-bottom: 6rem;
+  }
+  .more{
+    margin-top:  1.5rem;
+    margin-bottom:  5rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer{
+    --border-style: none;
+    ion-checkbox{
+      --size: 1rem;
+      margin: .5rem;
+    }
+    ion-label{
+      font-size: 14px;
+    }
+  }
+}
